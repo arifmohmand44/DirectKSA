@@ -40,15 +40,15 @@ $arrayOfObjects = [
     ['id' => 3, 'name' => 'Jack', 'age' => '22'],
 ];
 
-// Sort descending
+//Question#1. a function that sorts the given $arrayOfObjects by age, Descendingly
 sortByAgeDescending($arrayOfObjects);
 print_r($arrayOfObjects);
 
-// Extract ages
+//Question#2. a function that returns array of just the ages such as [20, 21, 22
 $ages = extractAges($arrayOfObjects);
 print_r($ages); // Output: [22, 21, 20]
 
-// Convert to arrays keyed by age
+//Question#3. a function that converts the $arrayOfObjects to $arrayOfArrays using the 'age'  as array key
 $byAge = convertToArraysByAge($arrayOfObjects);
 print_r($byAge);
 ?>
